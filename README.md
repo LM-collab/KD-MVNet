@@ -15,12 +15,15 @@ Extensive experiments show that the single-view student achieves 92.7% on NTU RG
 
 # Architecture
 
+![KD-MVNet Architecture](gif/Hall.gif)
 
 # Citation
 
 If you find this work useful, please cite:
+
+```bibtex
 @article{ma2026kdmvnet,
   title={Multi-View to Single-View Distillation via Hierarchical Prototypes and Cross-View Reconstruction},
   author={Ma, Le and Freitas dos Santos, Thiago and Magnenat-Thalmann, Nadia and Wac, Katarzyna},
-  year = {2026}
+  year={2026}
 }
