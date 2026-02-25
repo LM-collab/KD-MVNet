@@ -14,8 +14,28 @@ Extensive experiments show that the single-view student achieves 92.7% on NTU RG
 
 
 # Architecture
+## Multi-View Teacher Learning
 
+![KD-MVNet Architecture](gif/Teacher.gif)
+- **Shared spatiotemporal backbone extracts frame-level features from synchronized views** 
+- **DP-VIC enforces view-invariant semantics and execution-aware structure** 
+- **EG-SSM performs event-gated temporal modeling** 
+ 
+## Single-view student learning
 ![KD-MVNet Architecture](gif/Hall.gif)
+- **The student receives only one camera stream** 
+- **Anchor alignment pulls the student toward the teacher’s multi-view consensus** 
+- **Cross-view reconstruction forces the student to preserve enough information to predict teacher embeddings from all synchronized views** 
+
+
+# Datasets
+We use four public datasets to evaluate our method.
+- **NTU RGB+D 60** 
+- **NTU RGB+D 120** 
+- **Northwestern-UCLA** 
+- **PKU-MMD** 
+
+# Installation
 
 # Citation
 
