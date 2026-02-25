@@ -11,3 +11,16 @@ To address this limitation, we propose KD-MVNet (Knowledge Distillation Multi-Vi
 The single-view student then learns via Feature-Space Multi-View Reconstruction Distillation (FMRD). FMRD aligns the student’s embeddings to a multi-view consensus target and enforces the predictability of per-view teacher features from a single-view bottleneck, significantly improving generalization to unseen viewpoints.
 
 Extensive experiments show that the single-view student achieves 92.7% on NTU RGB+D 60, 88.9% on NTU RGB+D 120, 97.0% on Northwestern-UCLA, and 94.3% on PKU-MMD, outperforming strong single-view baselines while closely approaching multi-view teacher performance.
+
+
+# Architecture
+
+
+# Citation
+
+If you find this work useful, please cite:
+@article{ma2026kdmvnet,
+  title={Multi-View to Single-View Distillation via Hierarchical Prototypes and Cross-View Reconstruction},
+  author={Ma, Le and Freitas dos Santos, Thiago and Magnenat-Thalmann, Nadia and Wac, Katarzyna},
+  year = {2026}
+}
