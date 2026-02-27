@@ -36,6 +36,11 @@ We use four public datasets to evaluate our method.
 - **PKU-MMD** 
 
 # Installation
+### Requirements
+
+```bash
+pip install -r requirements.txt
+```
 
 # Citation
 
@@ -47,3 +52,4 @@ If you find this work useful, please cite:
   author={Ma, Le and Freitas dos Santos, Thiago and Magnenat-Thalmann, Nadia and Wac, Katarzyna},
   year={2026}
 }
+```
